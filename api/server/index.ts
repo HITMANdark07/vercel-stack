@@ -1,4 +1,5 @@
-import express, { type Express, type Request, type Response, type NextFunction } from 'express';
+import express from 'express';
+import type { Express, Request, Response, NextFunction } from 'express';
 import apiRoutes from './routes/api';
 
 const createApp = (): Express => {
