@@ -3,9 +3,10 @@
   "compilerOptions": {
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "typeRoots": ["./types", "../node_modules/@types"]
   },
-  "include": ["**/*.ts"],
+  "include": ["**/*.ts", "types/**/*.d.ts"],
   "exclude": ["node_modules"]
 }
 

@@ -1,3 +1,4 @@
+/// <reference path="../../../api/types/express.d.ts" />
 import { Router } from 'express';
 import type { Request, Response } from 'express';
 
