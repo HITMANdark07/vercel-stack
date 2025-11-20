@@ -11,6 +11,9 @@ importers:
       '@prisma/client':
         specifier: ^7.0.0
         version: 7.0.0(prisma@7.0.0(@types/react@19.2.6)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typescript@5.9.3))(typescript@5.9.3)
+      '@vercel/node':
+        specifier: ^5.5.8
+        version: 5.5.8
       express:
         specifier: ^5.1.0
         version: 5.1.0
@@ -42,9 +45,6 @@ importers:
       '@types/react-dom':
         specifier: ^19
         version: 19.2.3(@types/react@19.2.6)
-      '@vercel/node':
-        specifier: ^5.5.8
-        version: 5.5.8
       dotenv:
         specifier: ^17.2.3
         version: 17.2.3
